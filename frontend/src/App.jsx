@@ -11,7 +11,7 @@ import {
 import { useEffect, useState } from "react";
 import "./App.css";
 import LandingPage from "./LandingPage";
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://netsentinel-api-dd0c.onrender.com";
 const defaultFeatures = {
   duration: 0,
   protocol_type: "tcp",
