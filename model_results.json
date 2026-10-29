@@ -1,0 +1,20 @@
+{
+  "dataset": "NSL-KDD",
+  "test_records": 22544,
+  "models": [
+    {
+      "name": "SVM",
+      "accuracy": 75.31,
+      "intrusion_precision": 92.0,
+      "intrusion_recall": 62.0,
+      "intrusion_f1_score": 74.0
+    },
+    {
+      "name": "Decision Tree",
+      "accuracy": 79.08,
+      "intrusion_precision": 96.0,
+      "intrusion_recall": 66.0,
+      "intrusion_f1_score": 78.0
+    }
+  ]
+}
